@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1DD75D2A27A8AB41001DE233 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DD75D2927A8AB41001DE233 /* main.cpp */; };
+		1DD75D3127A8AB62001DE233 /* PalindromeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DD75D3027A8AB62001DE233 /* PalindromeTester.cpp */; };
+		1DD75D3427A8AB8A001DE233 /* Palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DD75D3227A8AB8A001DE233 /* Palindrome.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		1DD75D2627A8AB41001DE233 /* No-Brainer: Palindrome 4.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "No-Brainer: Palindrome 4.1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD75D2927A8AB41001DE233 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DD75D3027A8AB62001DE233 /* PalindromeTester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeTester.cpp; sourceTree = "<group>"; };
+		1DD75D3227A8AB8A001DE233 /* Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Palindrome.cpp; sourceTree = "<group>"; };
+		1DD75D3327A8AB8A001DE233 /* Palindrome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Palindrome.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				1DD75D2927A8AB41001DE233 /* main.cpp */,
+				1DD75D3027A8AB62001DE233 /* PalindromeTester.cpp */,
+				1DD75D3227A8AB8A001DE233 /* Palindrome.cpp */,
+				1DD75D3327A8AB8A001DE233 /* Palindrome.hpp */,
 			);
 			path = "No-Brainer: Palindrome 4.1";
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD75D3427A8AB8A001DE233 /* Palindrome.cpp in Sources */,
 				1DD75D2A27A8AB41001DE233 /* main.cpp in Sources */,
+				1DD75D3127A8AB62001DE233 /* PalindromeTester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
